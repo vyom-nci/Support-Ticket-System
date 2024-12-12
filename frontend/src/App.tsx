@@ -209,12 +209,12 @@ const App = () => {
           <Button variant="contained" onClick={handleOpenDialog}>
             Create New
           </Button>
-          <Button variant="contained" color="primary" onClick={handleDownloadReport}>
+          <Button variant="contained" color="primary" onClick={handleDownloadReport} style={{"marginLeft":"10px"}}>
             Download Report
           </Button>
         </Grid>
       </Grid>
-      
+
       <Dialog open={openDialog} onClose={handleCloseDialog}>
         <DialogTitle>Create New Ticket</DialogTitle>
         <DialogContent>
